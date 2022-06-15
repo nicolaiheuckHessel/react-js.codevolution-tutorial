@@ -1,9 +1,9 @@
 import React from 'react'
-import PureComponentParentExample from '../Rendering/PureComponentParentExample'
+import ExampleParentComponent from '../Rendering/ExampleParentComponent'
 
 const RenderingExamples = () => {
   return (
-    <PureComponentParentExample />
+    <ExampleParentComponent />
   )
 }
 
