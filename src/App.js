@@ -6,9 +6,10 @@ import RenderingExamples from './components/Examples/RenderingExamples';
 import UseEffectExample from './components/UseEffectExample';
 import { useState } from 'react';
 import ContextHooksExample from './components/Examples/ContextHooksExample';
+import UseCallbackExample from './components/Examples/UseCallbackExample';
 
 function App() {
-  const [showUseEffect, setShowUseEffect] = useState(true)
+  // const [showUseEffect, setShowUseEffect] = useState(true)
   return (
     <div className="App">
       {/* <LifecycleExampleComponent /> */}
@@ -19,7 +20,8 @@ function App() {
       {/* <button onClick={() => setShowUseEffect(!showUseEffect)}>Toggle UseEffectExample</button><br/>
       {showUseEffect && <UseEffectExample />} */}
       
-      <ContextHooksExample />
+      {/* <ContextHooksExample /> */}
+      <UseCallbackExample />
 
     </div>
   );
