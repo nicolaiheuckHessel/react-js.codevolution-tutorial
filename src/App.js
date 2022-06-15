@@ -7,6 +7,7 @@ import UseEffectExample from './components/UseEffectExample';
 import { useState } from 'react';
 import ContextHooksExample from './components/Examples/ContextHooksExample';
 import UseCallbackExample from './components/Examples/UseCallbackExample';
+import UseMemoExample from './components/Examples/UseMemoExample';
 
 function App() {
   // const [showUseEffect, setShowUseEffect] = useState(true)
@@ -21,7 +22,8 @@ function App() {
       {showUseEffect && <UseEffectExample />} */}
       
       {/* <ContextHooksExample /> */}
-      <UseCallbackExample />
+      {/* <UseCallbackExample /> */}
+      <UseMemoExample />
 
     </div>
   );
